@@ -1,0 +1,29 @@
+package com.syntax.review4;
+
+public class ContinueKeyWord {
+    public static void main(String[] args) {
+
+
+
+        for(int i=1;i<=5;i+=1){
+
+            if(i==3){
+                continue;
+            }
+            System.out.println(i);
+            System.out.println("Hi");
+            System.out.println("Bye");
+
+
+
+        }
+
+
+
+
+
+
+
+
+    }
+}
